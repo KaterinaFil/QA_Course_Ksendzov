@@ -1,0 +1,23 @@
+Bug id
+Summary
+
+Project
+Component
+Build version
+
+Severity
+Priority
+
+Status
+
+Environment
+
+Precondition
+
+Steps to Reproduce
+
+Results
+
+Expected Results
+
+Attachment
