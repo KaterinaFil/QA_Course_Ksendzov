@@ -510,9 +510,14 @@
 							"//1) Можете взять любой объект из присланного списка, используйте js random.\r",
 							"//В объекте возьмите Cur_ID и передать через окружение в следующий запрос.\r",
 							"\r",
-							"let random_number = Math.floor(Math.random() * 510) +1;\r",
+							"let JSONdata = pm.response.json();\r",
+							"let random_number = JSONdata[Math.floor(Math.random()*JSONdata.length)];\r",
+							"console.log(random_number);\r",
 							"\r",
-							"pm.environment.set(\"Cur_ID\", random_number);\r",
+							"let Cur_ID = random_number.Cur_ID;\r",
+							"console.log(random_number.Cur_ID);\r",
+							"\r",
+							"pm.environment.set(\"Cur_ID\", Cur_ID);\r",
 							""
 						],
 						"type": "text/javascript"
