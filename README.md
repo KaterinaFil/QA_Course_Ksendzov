@@ -1,4 +1,4 @@
-:white_check_mark: __Fiddler
+:white_check_mark: __Fiddler__
 
 - [X] Установка сертификата для просмотра HTTPs запросов
 - [X] Сниффинг траффика
