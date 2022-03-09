@@ -10,4 +10,4 @@ __Homework 0__
 
 __Homework 1__ *Тестирование приложения __Todo List__*
 
-![Alt-текст](https://ibb.co/jgWnzLG "TodoList")
+
