@@ -26,6 +26,8 @@
 
 :pushpin: __Homework 2__ *Тестирование приложения __Reminder__*
 
+![Alt-текст](https://github.com/KaterinaFil/QA_Course_Ksendzov/blob/Mobile_testing/Reminder.jpg "Reminder")
+
 - [X] Собрать .apk файл в Android Studio
 - [X] Собрать приложение на эмуляторе Android Studio
 - [X] Собрать приложение на реальном устройстве
