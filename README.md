@@ -12,6 +12,8 @@
 
 :pushpin: __Homework 1__ *Тестирование приложения __Todo List__*
 
+![Alt-текст](https://github.com/KaterinaFil/QA_Course_Ksendzov/blob/Mobile_testing/TodoList.jpg "TodoList")
+
 - [X] Собрать .apk файл в Android Studio
 - [X] Собрать приложение на эмуляторе Android Studio
 - [X] Собрать приложение на реальном устройстве
