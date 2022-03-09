@@ -1,4 +1,4 @@
-:white_check_mark: ### Android Debug Bridge
+:white_check_mark: __Android Debug Bridge__
 
 - [X] Отображение подключенного девайса в консоли
 - [X] Вывод адреса приложения в системе Android
