@@ -1,4 +1,4 @@
-:white_check_mark: Charles Proxy
+:white_check_mark: __Charles Proxy__
 
 - [X] Установка сертификата для просмотра HTTPs запросов
 - [X] Сниффинг траффика
