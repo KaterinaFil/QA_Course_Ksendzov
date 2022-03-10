@@ -1,0 +1,41 @@
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я		pwd
+2) Создать папку		mkdir foldername
+3) Зайти в папку		cd foldername
+4) Создать 3 папки		mkdir foldername_1/foldername_2/foldername_3
+5) Зайти в любую папку		cd foldername_1
+6) Создать 5 файлов (3 txt, 2 json)	touch filename_1.txt filename_2.txt filename_3.txt filename_4.json filename_5.json
+7) Создать 3 папки			mkdir f_1 f_2 f_3
+8) Вывести список содержимого папки	ls -la
+9) + Открыть любой txt файл		vim filename.txt
+10) + написать туда что-нибудь, любой текст		клавиша "I" для реадктирования, ввод текста
+11) + сохранить и выйти 				нажать "esc", ввести в нижнем поле :wq и нажать enter
+12) Выйти из папки на уровень выше			cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку		mv f_1/{filename_1.txt,filename_4.json} f_2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку		cp -r f_1/{filename_1.txt,filename_2.txt} f_3
+15) Найти файл по имени								find f_2 -iname "filename1.txt"
+										из корневой папки find /d -iname "test.txt"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает 	tail -f file1.txt
+											tail -f file1.txt | grep search_term
+17) вывести несколько первых строк из текстового файла					head -2	file1.txt			
+18) вывести несколько последних строк из текстового файла				tail -2 file1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает	less file1.txt
+20) вывести дату и время								date
+
+Задание *
+1) Отправить http запрос на сервер 		curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+touch script.sh
+vim script.sh		#!/bin/bash
+			cd /d/Course/Lesson_1/folder1
+			mkdir f_4 f_5 f_6
+			cd f_4
+			touch file1.txt file2.txt file3.txt file4.json file5.json
+			mkdir f_7 f_8 f_9
+			ls -la
+			mv file1.txt file2.txt f_7
+
+bash script.sh
+

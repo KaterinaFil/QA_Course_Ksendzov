@@ -1,0 +1,77 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:		git branch Postman	
+- Postman
+- Jmeter
+- CheckLists
+- Bug Reports
+- SQL
+- Charles
+- Mobile testing
+=====================================================================================
+2. Запушить все ветки на внешний репозиторий		git push -u origin --all
+
+=====================================================================================
+3. В ветке Bug Reports сделать текстовый документ 
+со структурой баг репорта				1. git checkout Bug_Reports
+							2. touch Bug_Reports.txt
+							3. vim Bug_Reports.txt
+							4. нажать "i" (insert) для редактирования
+							5. 	Bug id
+								Summary
+
+								Project
+								Component
+								Build version
+
+								Severity
+								Priority
+
+								Status
+
+								Environment
+
+								Precondition
+
+								Steps to Reproduce
+
+								Results
+
+								Expected Results
+
+								Attachment
+							6. Нажать esc, :wq ,enter для сохранения и выхода из режима редактирования
+=====================================================================================
+4. Запушить структуру багрепорта 
+на внешний репозиторий					1. git add .
+							2. git commit -m "Create Bug_Reports.txt"
+							3. git push
+							
+=====================================================================================
+5. Вмержить ветку Bug Reports в Main			1. git checkout main
+							2. git merge Bug_Reports
+=====================================================================================
+
+6. Запушить main на внешний репозиторий.		git push -u origin main
+=====================================================================================
+7. В ветке CheckLists набросать структуру чек листа.	1. git checkout CheckLists
+							2. touch Checklist1.txt
+							3. vim Checklist1.txt
+
+								Project
+								Build
+								Environment
+
+								Test type | Checking | Test Data | Result | Comment
+
+							5. Нажать esc, :wq ,enter для сохранения и выхода из режима редактирования
+=====================================================================================
+8. Запушить структуру на внешний репозиторий		1. git add .
+							2. git commit -m "Create Checklist1.txt"
+							3. git push
+=====================================================================================
+9. На внешнем репозитории сделать Pull Request 
+ветки CheckLists в main					1. На веб-интерфейсе выбрать ветку CheckLists
+							2. Нажать на кнопку "Compare & pull request"
+							3. Нажать на кнопку "Create pull request"
+=====================================================================================
+10. Синхронизировать Внешнюю и Локальную ветки Main	git pull
